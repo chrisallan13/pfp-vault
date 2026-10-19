@@ -33,7 +33,6 @@ const CONTACT_EMAIL='christopherallan1690@gmail.com';document.getElementById('ye
  const body='PFP VAULT ORDER REQUEST\n\nProduct: '+(kind==='custom'?'Custom gaming PFP':'Pre-built gaming PFP')+' ('+price+')\nDesign: '+(document.getElementById('selected').value||'Custom idea')+'\nIdea: '+document.getElementById('vibe').value+'\nContact method: '+(document.getElementById('handle').value||'Not provided')+'\n\nSeller: verify payment in the payment provider account before delivering any files.';
  window.location.href='mailto:'+email+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
 });
-updatePaymentButton();
 </script>
 </body>
 </html>
